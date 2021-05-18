@@ -39,7 +39,7 @@ lock "~> 3.16.0"
 # set :ssh_options, verify_host_key: :secure
 
 # Change these
-server '10.66.14.243', port: your_port_num, roles: [:web, :app, :db], primary: true
+server '10.66.13.162', roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'neha.test789@gmail.com:neha-peer/test_app_deploy.git'
 set :application,     'test_app_deploy'
