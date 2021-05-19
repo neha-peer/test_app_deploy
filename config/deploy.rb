@@ -4,7 +4,7 @@ server 'irisdev.corp.ooma.com', roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'git@github.com:neha-peer/test_app_deploy.git'
 set :application,     'test_app_deploy'
-set :user,            'neha-peer'
+set :user,            'iris'
 set :puma_threads,    [4, 16]
 set :puma_workers,    0
 

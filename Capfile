@@ -19,6 +19,7 @@ require 'capistrano/bundler'
 require 'capistrano/rvm'
 require 'capistrano/puma'
 
+install_plugin Capistrano::Puma::Systemd
 install_plugin Capistrano::SCM::Git
 
 install_plugin Capistrano::Puma  # Default puma tasks
