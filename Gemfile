@@ -52,7 +52,6 @@ group :development do
   gem 'capistrano3-puma',   require: false
 end
 
-  gem 'puma' ,'~> 5.0'
 
 group :test do
   # Adds support for Capybara system testing and selenium driver

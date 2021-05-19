@@ -20,6 +20,7 @@ require 'capistrano/rvm'
 require 'capistrano/puma'
 
 install_plugin Capistrano::SCM::Git
+install_plugin Capistrano::Puma
 
 # Include tasks from other gems included in your Gemfile
 #
